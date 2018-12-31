@@ -1,5 +1,5 @@
 function createPost() {
-  let pageTemplate = _.pageTemplate
+  let pageTemplate = _.template(document.)
 }
 
 function postComment() {
