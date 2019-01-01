@@ -13,7 +13,7 @@ function createPost() {
   let commentsSection = commentsTemplate();
   let postElement = document.getElementById("post");
  
-    postElement.innerHTML = blogSection;
+  postElement.innerHTML = blogSection;
    postElement.getElementsByTagName("footer")[0].innerHTML = commentsSection;
 }
 
