@@ -7,6 +7,9 @@ function createPost() {
   let postAuthor = document.getElementById("postAuthor").value;
   let post = document.getElementById("post").value;
   
+  document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
+  
+  
 }
 
 function postComment() {
