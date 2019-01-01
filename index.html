@@ -35,6 +35,13 @@
       <div id = "side bar"></div>
       <div id = "post"></div>
     </script>
+    <script id="post-template" type="text/x-lodash-template">
+         <article>
+           <header><h2><%- title %></h2><header>
+           <p><%- body %></p>
+           <footer>Posted by: <%= poster %></footer>
+         </article>
+       </script>
     </main>
     <script src="node_modules/lodash/lodash.min.js"></script>
     <script src="index.js"></script>
